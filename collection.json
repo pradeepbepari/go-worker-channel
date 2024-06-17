@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "7759f670-d7c0-4363-8d15-137939cfc898",
+		"name": "Fake_Json_RestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31651728",
+		"_collection_link": "https://purplease-team.postman.co/workspace/New-Team-Workspace~6522b84d-274d-442e-b7f2-cc14334c75c5/collection/31651728-7759f670-d7c0-4363-8d15-137939cfc898?action=share&source=collection_link&creator=31651728"
+	},
+	"item": [
+		{
+			"name": "comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/comments/100",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"comments",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "photos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/photos",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"photos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "albums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/albums",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/posts",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/todos",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}/users",
+					"host": [
+						"{{env}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "comment post",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
